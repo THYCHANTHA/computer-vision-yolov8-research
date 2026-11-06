@@ -1,0 +1,23 @@
+{
+  "weights": {
+    "file": "weights/best.pt",
+    "sha256": "378dd980300b5a5ec34f131a98eea74e23719ba6e512b9c60baa1465ef971d35",
+    "source": "https://github.com/THYCHANTHA/Face-mask-detection, weights/best.pt at commit ed072578dd048d3928436bfb728b6716aa0aaa71",
+    "also_identical_to": "the best.pt in the owner's local ITC course copy (Face-Mask-Detection-itc); same SHA-256",
+    "training_run": "Ultralytics run yolov8n_custom7: YOLOv8n pretrained, 50 epochs, batch 8, imgsz 640, seed 0 (reports/original_training/args.yaml)",
+    "retrained_here": false
+  },
+  "dataset": {
+    "name": "Face Mask Detection (andrewmvd)",
+    "url": "https://www.kaggle.com/datasets/andrewmvd/face-mask-detection",
+    "licence_as_stated_by_kaggle_api": "CC0: Public Domain",
+    "kaggle_last_updated": "2020-05-22T07:18:42Z",
+    "download_endpoint": "https://www.kaggle.com/api/v1/datasets/download/andrewmvd/face-mask-detection",
+    "downloaded_on": "2026-11-06",
+    "zip_sha256": "cabae358a60492a1b96da0510c31475414b64100480ae52cadbe00753bbef904",
+    "zip_bytes": 416968083,
+    "contents": "853 PNG images + 853 Pascal-VOC XML files",
+    "stored_in_repository": false
+  },
+  "original_notebook": "https://github.com/THYCHANTHA/Face-mask-detection/blob/ed072578dd048d3928436bfb728b6716aa0aaa71/notebooks/face-mask-detection-with-yolov8.ipynb"
+}

@@ -1,0 +1,12 @@
+# Versions used for the recorded results (reports/evaluation.json, 2026-11-06), Python 3.12.5, CPU.
+# torch is installed separately (CPU build: https://pytorch.org/get-started/locally/).
+torch==2.9.1
+torchvision==0.24.1
+ultralytics==8.4.203
+numpy==2.4.3
+pillow==12.1.0
+scikit-learn==1.7.2
+# The recorded run loaded cv2 4.10.0 (from opencv-contrib-python 4.10.0.84 in the shared system
+# site-packages). A clean install should use one OpenCV package only:
+opencv-python==4.10.0.84
+pytest

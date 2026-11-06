@@ -1,0 +1,259 @@
+{
+  "weights_sha256": "378dd980300b5a5ec34f131a98eea74e23719ba6e512b9c60baa1465ef971d35",
+  "recorded_best_epoch_val": {
+    "epoch": 38,
+    "precision": 0.88672,
+    "recall": 0.67817,
+    "mAP50": 0.78489,
+    "mAP50_95": 0.57242
+  },
+  "train_sanity_check": {
+    "split": "train",
+    "images": null,
+    "precision": 0.9510230476747902,
+    "recall": 0.8822250031683816,
+    "mAP50": 0.9439523844775183,
+    "mAP50_95": 0.6821420714935428,
+    "per_class": {
+      "without_mask": {
+        "precision": 0.9222034962837472,
+        "recall": 0.888581275645828,
+        "mAP50": 0.9505215014988762,
+        "mAP50_95": 0.6552800017924033
+      },
+      "with_mask": {
+        "precision": 0.9611319875006771,
+        "recall": 0.9425597532767926,
+        "mAP50": 0.9737961147166946,
+        "mAP50_95": 0.711945109676049
+      },
+      "mask_weared_incorrect": {
+        "precision": 0.9697336592399466,
+        "recall": 0.8155339805825242,
+        "mAP50": 0.9075395372169839,
+        "mAP50_95": 0.6792011030121756
+      }
+    },
+    "ultralytics_speed_ms": {
+      "preprocess": 0.7787706744774772,
+      "inference": 42.74885762463347,
+      "loss": 0.0002101172803685375,
+      "postprocess": 0.70085307918515
+    }
+  },
+  "val": {
+    "split": "val",
+    "images": null,
+    "precision": 0.8898709732995628,
+    "recall": 0.6789785516371359,
+    "mAP50": 0.7789517981772555,
+    "mAP50_95": 0.56485538481533,
+    "per_class": {
+      "without_mask": {
+        "precision": 0.869265809821137,
+        "recall": 0.6435322555859716,
+        "mAP50": 0.7628088167736973,
+        "mAP50_95": 0.5337364479831777
+      },
+      "with_mask": {
+        "precision": 0.9882735828129181,
+        "recall": 0.8934033993254362,
+        "mAP50": 0.9751576888691802,
+        "mAP50_95": 0.6813574842405903
+      },
+      "mask_weared_incorrect": {
+        "precision": 0.8120735272646331,
+        "recall": 0.5,
+        "mAP50": 0.598888888888889,
+        "mAP50_95": 0.4794722222222223
+      }
+    },
+    "ultralytics_speed_ms": {
+      "preprocess": 0.7997729411513052,
+      "inference": 40.85402588235036,
+      "loss": 0.00020235289840082472,
+      "postprocess": 1.1196047058440266
+    }
+  },
+  "test": {
+    "split": "test",
+    "images": null,
+    "precision": 0.8724928166546112,
+    "recall": 0.7520389298872164,
+    "mAP50": 0.8326884542855421,
+    "mAP50_95": 0.5825216837225506,
+    "per_class": {
+      "without_mask": {
+        "precision": 0.8896644003358386,
+        "recall": 0.7627118644067796,
+        "mAP50": 0.844320826945207,
+        "mAP50_95": 0.5335861100583139
+      },
+      "with_mask": {
+        "precision": 0.9328079476864174,
+        "recall": 0.9380281690140845,
+        "mAP50": 0.963946974409367,
+        "mAP50_95": 0.689729731485865
+      },
+      "mask_weared_incorrect": {
+        "precision": 0.7950061019415777,
+        "recall": 0.5553767562407855,
+        "mAP50": 0.6897975615020518,
+        "mAP50_95": 0.5242492096234729
+      }
+    },
+    "ultralytics_speed_ms": {
+      "preprocess": 0.7910813953648632,
+      "inference": 42.981061627912375,
+      "loss": 0.0001662790879869812,
+      "postprocess": 1.6066209302448973
+    }
+  },
+  "test_dedup": {
+    "split": "test",
+    "images": null,
+    "precision": 0.8140116731078749,
+    "recall": 0.7497502497502498,
+    "mAP50": 0.780659277861009,
+    "mAP50_95": 0.5580445649318541,
+    "per_class": {
+      "without_mask": {
+        "precision": 0.8355137045027309,
+        "recall": 0.8076923076923077,
+        "mAP50": 0.8172747076573573,
+        "mAP50_95": 0.5235562130452537
+      },
+      "with_mask": {
+        "precision": 0.9118548232722713,
+        "recall": 0.9415584415584416,
+        "mAP50": 0.9570385994409184,
+        "mAP50_95": 0.693247078474424
+      },
+      "mask_weared_incorrect": {
+        "precision": 0.6946664915486224,
+        "recall": 0.5,
+        "mAP50": 0.5676645264847513,
+        "mAP50_95": 0.4573304032758843
+      }
+    },
+    "ultralytics_speed_ms": {
+      "preprocess": 1.0804829268037306,
+      "inference": 53.961758536588164,
+      "loss": 0.0002963414350765893,
+      "postprocess": 0.9809524390220759
+    }
+  },
+  "val_reproduction_abs_diff": {
+    "precision": 0.0032,
+    "recall": 0.0008,
+    "mAP50": 0.0059,
+    "mAP50_95": 0.0076
+  },
+  "operating_point_test_dedup": {
+    "n_images": 82,
+    "bootstrap": "2000 image-level resamples, percentile 95% interval, seed 0",
+    "settings": {
+      "conf": 0.5,
+      "nms_iou": 0.5,
+      "match_iou": 0.5,
+      "imgsz": 640
+    },
+    "labels": [
+      "without_mask",
+      "with_mask",
+      "mask_weared_incorrect",
+      "background/missed"
+    ],
+    "confusion_rows_gt_cols_pred": [
+      [
+        36,
+        1,
+        0,
+        15
+      ],
+      [
+        1,
+        288,
+        2,
+        17
+      ],
+      [
+        0,
+        4,
+        4,
+        2
+      ],
+      [
+        3,
+        15,
+        0,
+        0
+      ]
+    ],
+    "per_class": [
+      {
+        "true_positives": 36,
+        "predicted": 40,
+        "ground_truth": 52,
+        "precision": 0.9,
+        "recall": 0.6923076923076923,
+        "precision_95ci": [
+          0.7906976744186046,
+          0.9772727272727273
+        ],
+        "recall_95ci": [
+          0.5245706479313037,
+          0.8611111111111112
+        ],
+        "class": "without_mask"
+      },
+      {
+        "true_positives": 288,
+        "predicted": 308,
+        "ground_truth": 308,
+        "precision": 0.935064935064935,
+        "recall": 0.935064935064935,
+        "precision_95ci": [
+          0.9,
+          0.9622138042807162
+        ],
+        "recall_95ci": [
+          0.891980701754386,
+          0.9683711102573953
+        ],
+        "class": "with_mask"
+      },
+      {
+        "true_positives": 4,
+        "predicted": 6,
+        "ground_truth": 10,
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "precision_95ci": [
+          0.2,
+          1.0
+        ],
+        "recall_95ci": [
+          0.09090909090909091,
+          0.8
+        ],
+        "class": "mask_weared_incorrect"
+      }
+    ]
+  },
+  "latency": {
+    "n_images": 86,
+    "median_ms": 57.98800000047777,
+    "p90_ms": 74.69350000064878,
+    "mean_ms": 62.718900000026075,
+    "imgsz": 640,
+    "device": "cpu",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "versions": {
+    "ultralytics": "8.4.203",
+    "torch": "2.9.1+cpu",
+    "python": "3.12.5"
+  }
+}

@@ -1,0 +1,34 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.5, pytest-9.0.3, pluggy-1.6.0 -- D:\thy-chantha-research-portfolio\computer-vision-yolov8-research\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\thy-chantha-research-portfolio\computer-vision-yolov8-research
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.11.0, requests-mock-1.12.1
+collecting ... collected 23 items
+
+tests/test_annotations.py::test_parse_reads_size_and_every_object PASSED [  4%]
+tests/test_annotations.py::test_parse_rejects_missing_size PASSED        [  8%]
+tests/test_annotations.py::test_yolo_conversion_matches_notebook_formula PASSED [ 13%]
+tests/test_annotations.py::test_class_ids_follow_notebook_name_map PASSED [ 17%]
+tests/test_annotations.py::test_clip_keeps_boxes_inside_image PASSED     [ 21%]
+tests/test_annotations.py::test_validation_flags_each_problem PASSED     [ 26%]
+tests/test_annotations.py::test_clean_annotation_has_no_issues PASSED    [ 30%]
+tests/test_annotations.py::test_file_order_is_case_insensitive_sorted PASSED [ 34%]
+tests/test_annotations.py::test_load_reports_empty_and_broken_files PASSED [ 39%]
+tests/test_real_data.py::test_dataset_matches_published_description PASSED [ 43%]
+tests/test_real_data.py::test_split_matches_the_audited_test_set PASSED  [ 47%]
+tests/test_real_data.py::test_weights_are_the_recorded_run PASSED        [ 52%]
+tests/test_splits_duplicates_matching.py::test_split_sizes_match_notebook_proportions PASSED [ 56%]
+tests/test_splits_duplicates_matching.py::test_split_is_deterministic_and_seed_dependent PASSED [ 60%]
+tests/test_splits_duplicates_matching.py::test_split_rejects_duplicate_names PASSED [ 65%]
+tests/test_splits_duplicates_matching.py::test_check_disjoint_detects_overlap PASSED [ 69%]
+tests/test_splits_duplicates_matching.py::test_dhash_is_stable_under_resize_and_differs_for_other_images PASSED [ 73%]
+tests/test_splits_duplicates_matching.py::test_near_duplicate_pairs_and_cross_split_filter PASSED [ 78%]
+tests/test_splits_duplicates_matching.py::test_iou_matrix_values PASSED  [ 82%]
+tests/test_splits_duplicates_matching.py::test_match_image_counts_hits_confusions_misses_and_false_alarms PASSED [ 86%]
+tests/test_splits_duplicates_matching.py::test_one_ground_truth_box_matches_at_most_once PASSED [ 91%]
+tests/test_splits_duplicates_matching.py::test_bootstrap_intervals_contain_point_estimate_and_are_reproducible PASSED [ 95%]
+tests/test_splits_duplicates_matching.py::test_no_predictions_means_all_missed PASSED [100%]
+
+============================= 23 passed in 2.57s ==============================

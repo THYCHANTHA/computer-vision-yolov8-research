@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+# The Kaggle dataset and the generated YOLO dataset / runs are not stored in git (see docs/DATA_SOURCE.md)
+data/raw/
+data/work/
+runs/
+*.cache

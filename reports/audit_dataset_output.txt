@@ -1,0 +1,73 @@
+{
+  "dataset_dir_name": "raw",
+  "n_xml": 853,
+  "n_images": 853,
+  "images_without_xml": [],
+  "n_boxes": 4072,
+  "class_counts": {
+    "without_mask": 717,
+    "with_mask": 3232,
+    "mask_weared_incorrect": 123
+  },
+  "boxes_per_image": {
+    "min": 1,
+    "median": 2,
+    "max": 115
+  },
+  "issue_counts": {
+    "box_outside_image": 12
+  },
+  "split_sizes": {
+    "train": 682,
+    "val": 85,
+    "test": 86
+  },
+  "split_class_counts": {
+    "train": {
+      "without_mask": 627,
+      "with_mask": 2594,
+      "mask_weared_incorrect": 103
+    },
+    "val": {
+      "with_mask": 283,
+      "mask_weared_incorrect": 6,
+      "without_mask": 31
+    },
+    "test": {
+      "with_mask": 355,
+      "without_mask": 59,
+      "mask_weared_incorrect": 14
+    }
+  },
+  "exact_duplicate_groups": [
+    [
+      "maksssksksss13.png",
+      "maksssksksss737.png"
+    ],
+    [
+      "maksssksksss146.png",
+      "maksssksksss219.png"
+    ],
+    [
+      "maksssksksss410.png",
+      "maksssksksss428.png"
+    ],
+    [
+      "maksssksksss653.png",
+      "maksssksksss775.png"
+    ],
+    [
+      "maksssksksss656.png",
+      "maksssksksss690.png"
+    ]
+  ],
+  "near_duplicate_threshold_bits": 4,
+  "near_duplicate_pairs_total": 17,
+  "near_duplicate_pairs_cross_split": 6,
+  "test_images_with_near_duplicate_in_train_or_val": [
+    "maksssksksss293.png",
+    "maksssksksss428.png",
+    "maksssksksss545.png",
+    "maksssksksss656.png"
+  ]
+}

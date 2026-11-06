@@ -1,0 +1,7 @@
+image_a,image_b,dhash_distance,split_a,split_b
+maksssksksss13.png,maksssksksss737.png,0,train,val
+maksssksksss156.png,maksssksksss545.png,0,train,test
+maksssksksss293.png,maksssksksss466.png,3,test,val
+maksssksksss410.png,maksssksksss428.png,0,train,test
+maksssksksss656.png,maksssksksss690.png,0,test,train
+maksssksksss662.png,maksssksksss839.png,0,train,val

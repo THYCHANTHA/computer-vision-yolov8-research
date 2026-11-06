@@ -1,0 +1,223 @@
+{
+  "dataset_dir_name": "raw",
+  "n_xml": 853,
+  "n_images": 853,
+  "images_without_xml": [],
+  "n_boxes": 4072,
+  "class_counts": {
+    "without_mask": 717,
+    "with_mask": 3232,
+    "mask_weared_incorrect": 123
+  },
+  "boxes_per_image": {
+    "min": 1,
+    "median": 2,
+    "max": 115
+  },
+  "issue_counts": {
+    "box_outside_image": 12
+  },
+  "issues": [
+    {
+      "filename": "maksssksksss110.png",
+      "kind": "box_outside_image",
+      "detail": "box 24: (381.0,14.0,401.0,34.0) in 400x267"
+    },
+    {
+      "filename": "maksssksksss231.png",
+      "kind": "box_outside_image",
+      "detail": "box 14: (392.0,86.0,401.0,106.0) in 400x249"
+    },
+    {
+      "filename": "maksssksksss251.png",
+      "kind": "box_outside_image",
+      "detail": "box 19: (373.0,76.0,401.0,114.0) in 400x206"
+    },
+    {
+      "filename": "maksssksksss457.png",
+      "kind": "box_outside_image",
+      "detail": "box 5: (389.0,56.0,401.0,83.0) in 400x300"
+    },
+    {
+      "filename": "maksssksksss5.png",
+      "kind": "box_outside_image",
+      "detail": "box 1: (364.0,30.0,401.0,66.0) in 400x266"
+    },
+    {
+      "filename": "maksssksksss501.png",
+      "kind": "box_outside_image",
+      "detail": "box 5: (357.0,65.0,401.0,132.0) in 400x255"
+    },
+    {
+      "filename": "maksssksksss603.png",
+      "kind": "box_outside_image",
+      "detail": "box 98: (397.0,132.0,401.0,142.0) in 400x278"
+    },
+    {
+      "filename": "maksssksksss603.png",
+      "kind": "box_outside_image",
+      "detail": "box 114: (396.0,18.0,401.0,23.0) in 400x278"
+    },
+    {
+      "filename": "maksssksksss616.png",
+      "kind": "box_outside_image",
+      "detail": "box 10: (394.0,92.0,401.0,111.0) in 400x267"
+    },
+    {
+      "filename": "maksssksksss706.png",
+      "kind": "box_outside_image",
+      "detail": "box 14: (368.0,162.0,401.0,219.0) in 400x267"
+    },
+    {
+      "filename": "maksssksksss787.png",
+      "kind": "box_outside_image",
+      "detail": "box 7: (360.0,79.0,401.0,139.0) in 400x288"
+    },
+    {
+      "filename": "maksssksksss93.png",
+      "kind": "box_outside_image",
+      "detail": "box 8: (388.0,72.0,401.0,92.0) in 400x267"
+    }
+  ],
+  "split_sizes": {
+    "train": 682,
+    "val": 85,
+    "test": 86
+  },
+  "split_class_counts": {
+    "train": {
+      "without_mask": 627,
+      "with_mask": 2594,
+      "mask_weared_incorrect": 103
+    },
+    "val": {
+      "with_mask": 283,
+      "mask_weared_incorrect": 6,
+      "without_mask": 31
+    },
+    "test": {
+      "with_mask": 355,
+      "without_mask": 59,
+      "mask_weared_incorrect": 14
+    }
+  },
+  "test_images": [
+    "maksssksksss100.png",
+    "maksssksksss113.png",
+    "maksssksksss129.png",
+    "maksssksksss140.png",
+    "maksssksksss151.png",
+    "maksssksksss153.png",
+    "maksssksksss157.png",
+    "maksssksksss164.png",
+    "maksssksksss174.png",
+    "maksssksksss183.png",
+    "maksssksksss19.png",
+    "maksssksksss195.png",
+    "maksssksksss231.png",
+    "maksssksksss237.png",
+    "maksssksksss260.png",
+    "maksssksksss261.png",
+    "maksssksksss273.png",
+    "maksssksksss28.png",
+    "maksssksksss280.png",
+    "maksssksksss283.png",
+    "maksssksksss293.png",
+    "maksssksksss313.png",
+    "maksssksksss315.png",
+    "maksssksksss316.png",
+    "maksssksksss318.png",
+    "maksssksksss321.png",
+    "maksssksksss33.png",
+    "maksssksksss330.png",
+    "maksssksksss337.png",
+    "maksssksksss356.png",
+    "maksssksksss367.png",
+    "maksssksksss387.png",
+    "maksssksksss397.png",
+    "maksssksksss426.png",
+    "maksssksksss428.png",
+    "maksssksksss431.png",
+    "maksssksksss442.png",
+    "maksssksksss47.png",
+    "maksssksksss483.png",
+    "maksssksksss500.png",
+    "maksssksksss505.png",
+    "maksssksksss515.png",
+    "maksssksksss530.png",
+    "maksssksksss538.png",
+    "maksssksksss540.png",
+    "maksssksksss542.png",
+    "maksssksksss545.png",
+    "maksssksksss552.png",
+    "maksssksksss557.png",
+    "maksssksksss57.png",
+    "maksssksksss576.png",
+    "maksssksksss595.png",
+    "maksssksksss625.png",
+    "maksssksksss63.png",
+    "maksssksksss632.png",
+    "maksssksksss636.png",
+    "maksssksksss638.png",
+    "maksssksksss639.png",
+    "maksssksksss646.png",
+    "maksssksksss656.png",
+    "maksssksksss66.png",
+    "maksssksksss668.png",
+    "maksssksksss67.png",
+    "maksssksksss670.png",
+    "maksssksksss681.png",
+    "maksssksksss692.png",
+    "maksssksksss696.png",
+    "maksssksksss706.png",
+    "maksssksksss709.png",
+    "maksssksksss715.png",
+    "maksssksksss728.png",
+    "maksssksksss732.png",
+    "maksssksksss739.png",
+    "maksssksksss757.png",
+    "maksssksksss760.png",
+    "maksssksksss766.png",
+    "maksssksksss780.png",
+    "maksssksksss783.png",
+    "maksssksksss786.png",
+    "maksssksksss788.png",
+    "maksssksksss798.png",
+    "maksssksksss823.png",
+    "maksssksksss83.png",
+    "maksssksksss847.png",
+    "maksssksksss92.png",
+    "maksssksksss94.png"
+  ],
+  "exact_duplicate_groups": [
+    [
+      "maksssksksss13.png",
+      "maksssksksss737.png"
+    ],
+    [
+      "maksssksksss146.png",
+      "maksssksksss219.png"
+    ],
+    [
+      "maksssksksss410.png",
+      "maksssksksss428.png"
+    ],
+    [
+      "maksssksksss653.png",
+      "maksssksksss775.png"
+    ],
+    [
+      "maksssksksss656.png",
+      "maksssksksss690.png"
+    ]
+  ],
+  "near_duplicate_threshold_bits": 4,
+  "near_duplicate_pairs_total": 17,
+  "near_duplicate_pairs_cross_split": 6,
+  "test_images_with_near_duplicate_in_train_or_val": [
+    "maksssksksss293.png",
+    "maksssksksss428.png",
+    "maksssksksss545.png",
+    "maksssksksss656.png"
+  ]
+}

@@ -1,0 +1,4 @@
+nvidia-ml-py==13.615.71
+ultralytics==8.4.203
+ultralytics-platform==0.1.104
+ultralytics-thop==2.2.5
